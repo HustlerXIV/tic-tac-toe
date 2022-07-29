@@ -75,3 +75,10 @@ export const CoverBg = styled.div`
   top: 0;
   display: block;
 `;
+
+export const Signature = styled.div`
+  color: #fff;
+  position: absolute;
+  bottom: 10%;
+  font-size: 20px;
+`;

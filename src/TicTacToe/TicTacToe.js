@@ -9,6 +9,7 @@ import {
   RestartButton,
   Alert,
   CoverBg,
+  Signature,
 } from "./style";
 const TicTacToe = () => {
   const [turn, setTurn] = useState("X");
@@ -123,6 +124,7 @@ const TicTacToe = () => {
           </>
         )}
       </Container>
+      <Signature>Napat Jaiyim</Signature>
     </BgPage>
   );
 };
